@@ -1,0 +1,50 @@
+
+#home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    text-align: start;
+    padding: 100px;
+    background-color: #ffffff; 
+    gap: 100px;
+    
+  }
+  
+  #home p {
+    font-size: 1.6rem;
+    color: #333; 
+  }
+  
+  #home h1 {
+    font-size: 43px;
+    color: #555; 
+    margin-bottom: 20px;
+  }
+  
+  #home button {
+    padding: 15px 25px;
+    margin-top:20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #21d421;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+  #home button:hover {
+    background-color: #1cb81c;
+    
+  }
+  
+  #home img{
+    width: 350px;
+    border-radius: 200px;
+}
+
+  .SobreHome{
+    width: 500px;
+
+  }

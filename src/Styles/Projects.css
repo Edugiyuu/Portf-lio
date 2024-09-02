@@ -1,0 +1,16 @@
+.Project img{
+
+    width: 300px;
+    border-radius:40px;
+    
+}
+.Project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 300px;
+    border-radius:40px;
+    
+}
