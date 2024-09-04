@@ -1,19 +1,28 @@
-import '../Styles/Projects.css'
-interface Project{
-        image: string,
-        projectLink: string
-    }
-const Projects = ({ image, projectLink }:Project) => {
 
- 
-    return (
-      <section id="projects">
-        <div className='Project'>
-          <img src={image} />
-          <a href={projectLink}>Ver Projeto</a>
-        </div>
-      </section>
-    );
-  };
-  
-  export default Projects;
+import PokeApiImg from '../Imgs/backgrounds/PokeApi.png'
+import Project from './Project'
+import '../Styles/Projects.css'
+
+const Projects = () => {
+  return (
+    <section id="projects" >
+      <div className='AboutTheProjects'>
+        <h1>Projects</h1>
+        <p>Aqui tem alguns dos meus projetos</p>
+      </div>
+
+      <div className='AllTheProjects'>
+
+        <Project image={PokeApiImg} projectLink='https://edugiyuu.github.io/Pokemon_API_TypeScript/'></Project>
+        <Project image={PokeApiImg} projectLink='https://edugiyuu.github.io/Pokemon_API_TypeScript/'></Project>
+        <Project image={PokeApiImg} projectLink='https://edugiyuu.github.io/Pokemon_API_TypeScript/'></Project>
+        <Project image={PokeApiImg} projectLink='https://edugiyuu.github.io/Pokemon_API_TypeScript/'></Project>
+        <Project image={PokeApiImg} projectLink='https://edugiyuu.github.io/Pokemon_API_TypeScript/'></Project>
+
+      </div>
+
+    </section>
+  )
+}
+
+export default Projects

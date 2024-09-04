@@ -1,8 +1,7 @@
 .Project img{
+    width: 250px;
+    border-radius:20px;
 
-    width: 300px;
-    border-radius:40px;
-    
 }
 .Project {
     display: flex;
@@ -11,6 +10,38 @@
     justify-items: center;
     align-items: center;
     width: 300px;
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+    border-radius: 15px;
+}
+.Project a{
+   text-decoration: none;
+   color: #333;
+   margin-top: 20px;
+}
+
+.AllTheProjects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     border-radius:40px;
-    
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+.AboutTheProjects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 2rem;
+    color: #333;
+}
+.AboutTheProjects p {
+    color: black;
+    font-size: 1.2rem;
 }

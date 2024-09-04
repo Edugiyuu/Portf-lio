@@ -1,7 +1,7 @@
 
 .BarOutJS {
   width: 500px;
-  height: 13px;
+  height: 15px;
   background-color: #7c7c7c43; 
   border-radius: 10px;
   display: flex; 
@@ -9,15 +9,64 @@
 }
 
 .BarInJS {
-  height: 13px;
-  border-radius: 10px;
+  display: flex;
+  max-width: 500px;
+  height: 15px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .Skills {
   display: flex;
   flex-wrap: wrap; 
-  gap: 20px;
+ 
   justify-content: space-evenly; 
+  padding: 10px;
+  text-align: start;
+}
+
+.Skills {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px; 
+  justify-content: space-evenly; 
+  padding: 10px;
+  text-align: start;
+}
+.skillName{
+  font-size: 1.1rem;
+}
+#skills h1{
+  color: #555;
+  margin-bottom: 80px;
+  font-size: 2rem;
 }
 
 
+
+#skills {
+  position: relative;
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+
+
+.backgroundText {
+  font-size: 100px;
+  color: rgba(53, 53, 53, 0.1);
+  position: absolute;
+  top: 80px;
+  left: 0; 
+  right: 0; 
+  margin: 0px; 
+}
+
+.SkillsDiv{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

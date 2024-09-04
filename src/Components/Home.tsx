@@ -19,7 +19,7 @@ const Home = () => {
       </div>
 
       <div className="ImgHome">
-        <img src={FotoPerfil} alt="Foto de Perfil" />
+        <img src={FotoPerfil}/>
       </div>
     </section>
   );

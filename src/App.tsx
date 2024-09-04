@@ -2,9 +2,11 @@ import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 import "./App.css";
 import NavBar from './Components/NavBar';
 import Home from './Components/Home';
-import Projects from './Components/Projects';
-import PokeApiImg from './Imgs/backgrounds/PokeApi.png'
+
 import Skills from './Components/Skills';
+import About from './Components/About';
+import Projects from './Components/Projects';
+import Contact from './Components/Contact';
 const App = () => {
 
   return (
@@ -12,8 +14,12 @@ const App = () => {
       <NavBar></NavBar>
       <Home></Home>
       <div className='SkillsDiv'>
-        <h1>Skills</h1>
+        
+        <About></About>
+        
         <Skills></Skills>
+        <Projects></Projects>
+        <Contact></Contact>
       </div>
       
       

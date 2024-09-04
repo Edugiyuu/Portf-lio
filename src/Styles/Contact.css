@@ -1,0 +1,31 @@
+
+#contact {
+    text-align: center;
+    padding: 40px;
+  }
+
+
+  .contactIcons {
+    display: flex;
+    align-items: center; 
+    gap: 80px; 
+    
+    margin-top: 20px; 
+  }
+  
+  .contactIcons a img {
+    width: 80px; /* Ajusta o tamanho do ícone */
+    height: 80px; /* Ajusta o tamanho do ícone */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transição suave para hover */
+    border-radius: 8px; /* Bordas arredondadas nos ícones */
+  }
+
+  .contactIcons a img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+  
+#contact h1{
+    color: #555; 
+    font-size: 2rem;
+}

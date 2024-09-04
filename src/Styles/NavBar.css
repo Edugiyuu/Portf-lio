@@ -9,16 +9,13 @@
     top: 0;         
     left: 0;        
     padding: 10px;
+    z-index: 1;
   }
   
   .NavBar a {
     color: rgb(0, 0, 0);   
     text-decoration: none; 
     padding: 10px 15px;
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid black;
   }
-  
-  .NavBar a:hover {
-    border-bottom: 2px solid black;
-  }
-  
