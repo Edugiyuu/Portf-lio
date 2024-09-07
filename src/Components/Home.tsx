@@ -1,5 +1,5 @@
 import '../Styles/Home.css';
-import FotoPerfil from '../Imgs/user.png';
+import FotoPerfil from '../Imgs/Foto de perfil.jpeg';
 
 const Home = () => {
   const toProjects = () => {

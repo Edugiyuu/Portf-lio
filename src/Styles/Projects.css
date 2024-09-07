@@ -41,7 +41,9 @@
     font-size: 2rem;
     color: #333;
 }
-.AboutTheProjects p {
-    color: black;
-    font-size: 1.2rem;
+
+
+.AboutTheProjects img{
+    width: 100%;
+    height: 100%;
 }
