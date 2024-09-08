@@ -39,14 +39,19 @@
   font-size: 1.1rem;
 }
 #skills h1{
-  color: #555;
+  
   margin-bottom: 80px;
   font-size: 2rem;
+}
+#skills h2{
+  color: rgba(255, 233, 37, 0.288);
+
 }
 
 
 
 #skills {
+ 
   position: relative;
   text-align: center;
   padding-bottom: 60px;
@@ -57,7 +62,7 @@
 
 .backgroundText {
   font-size: 100px;
-  color: rgba(53, 53, 53, 0.1);
+  background-color: #7c7c7c00;
   position: absolute;
   top: 80px;
   left: 0; 

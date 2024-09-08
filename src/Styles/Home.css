@@ -6,44 +6,61 @@
     justify-content:space-around;
     text-align: start;
     padding: 100px;
-    background-color: #ffffff; 
+
     gap: 100px;
     
   }
   
   #home p {
     font-size: 1.6rem;
-    color: #333; 
+    color: #ffffff; 
   }
   
   #home h1 {
     font-size: 43px;
-    color: #555; 
+    color: #ffffff; 
     margin-bottom: 20px;
   }
   
   #home button {
     padding: 15px 25px;
-    margin-top:20px;
+    margin-top: 20px;
     font-size: 1.2rem;
     color: white;
     background-color: #21d421;
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
 }
-  
-  #home button:hover {
+
+#home button:hover {
     background-color: #1cb81c;
-    
-  }
+    animation: pulse 1s;
+   
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #1cb81c;
+    }
+    70% {
+        box-shadow: 0 0 0 50px rgba(33, 212, 33, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(33, 212, 33, 0);
+    }
+}
+
   
   #home img{
-    width: 300px;
-    border-radius: 200px;
-
+    margin-top: 30px;
+    width: 350px;
+    border-radius: 100px;
+    box-shadow: #333;
 }
+
 
   .SobreHome{
     width: 500px;

@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(17, 17, 17);
     width: 100%;
     position: fixed; 
     top: 0;         
@@ -13,9 +13,9 @@
   }
   
   .NavBar a {
-    color: rgb(0, 0, 0);   
+    color: rgb(240, 240, 240);   
     text-decoration: none; 
     padding: 10px 15px;
     transition: background-color 0.3s ease;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(255, 255, 255);
   }

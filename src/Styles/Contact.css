@@ -9,7 +9,6 @@
     display: flex;
     align-items: center; 
     gap: 80px; 
-    
     margin-top: 20px; 
   }
   
@@ -22,7 +21,7 @@
 
   .contactIcons a img:hover {
     transform: scale(1.2);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(202, 202, 202, 0.2);
 }
   
 #contact h1{

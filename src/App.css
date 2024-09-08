@@ -1,9 +1,29 @@
+
+body{
+  background-color: rgb(10, 10, 10);
+}
 * {
-    scroll-behavior: smooth;
-    font-family: "Work Sans", sans-serif;
+  scroll-behavior: smooth;
+  font-family: "Work Sans", sans-serif;
+  
+  color: white;
+}
+
+.SkillsDiv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+}
+  100% {
+    opacity: 1;
   }
-  .SkillsDiv{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
+}
+
+* {
+  animation: appear 0.5s ease-out forwards;
+}

@@ -1,5 +1,6 @@
 import '../Styles/Home.css';
-import FotoPerfil from '../Imgs/Foto de perfil.jpeg';
+import FotoPerfil from '../Imgs/Foto de perfil2.png';
+
 
 const Home = () => {
   const toProjects = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <div className="SobreHome">
         <p>Olá</p>
         {/* <h1>Eu me chamo Eduardo, mas pode me chamar só de edu</h1> */}
+
         <h1>Eu me chamo <span style={{color:'#21d421'}}>Eduardo</span>, mas pode me chamar só de <span style={{color:'#21d421'}}>edu</span> :)</h1>
         <button onClick={toProjects}>Meus Projetos</button>
       </div>

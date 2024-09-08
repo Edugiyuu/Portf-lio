@@ -5,31 +5,38 @@
     flex-direction: row;
     align-items: start;
     justify-content: space-evenly;
-    background-color: #ffffff;
+   flex-wrap: wrap;
     gap: 200px;
 
 }
 
 #about img {
-    width: 350px;
+    width: 450px;
 }
 
 .AboutMe p {
     font-size: 1.2rem;
-    color: black;
+
 }
 
 .AboutMe h1 {
-    color: #555;
+
     font-size: 30px;
     margin-bottom: 50px;
 }
 
 .AboutMe h2 {
-    color: #555;
+ 
     margin-bottom: 30px;
 }
 
 .AboutMe span {
-    color: #333;
+    color: #ffffff;
+}
+.AboutMe img{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }

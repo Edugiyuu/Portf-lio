@@ -10,7 +10,7 @@ import Contact from './Components/Contact';
 const App = () => {
 
   return (
-    <div>
+    <div >
       <NavBar></NavBar>
       <Home></Home>
       <div className='SkillsDiv'>
