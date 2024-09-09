@@ -1,7 +1,7 @@
 
 .BarOutJS {
-  width: 500px;
-  height: 15px;
+  width: 350px;
+  height: 18px;
   background-color: #7c7c7c43; 
   border-radius: 10px;
   display: flex; 
@@ -10,8 +10,8 @@
 
 .BarInJS {
   display: flex;
-  max-width: 500px;
-  height: 15px;
+  max-width: 350px;
+  height: 18px;
   border-radius: 5px;
   font-size: 0.8rem;
   justify-content: center;
@@ -44,18 +44,16 @@
   font-size: 2rem;
 }
 #skills h2{
-  color: rgba(255, 233, 37, 0.288);
+  color: rgba(70, 223, 23, 0.274);
 
 }
-
-
 
 #skills {
  
   position: relative;
   text-align: center;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding-bottom: 150px;
+  padding-top: 100px;
 }
 
 

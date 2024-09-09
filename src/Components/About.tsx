@@ -1,15 +1,13 @@
-import FotoPerfil from '../Imgs/user.png';
+import FotoPerfil from '../Imgs/Foto de perfil.jpeg';
 import '../Styles/About.css';
-import ProjectBg from '../Imgs/backgrounds/PersonaGirl.png';
 
 const About = () => {
   return (
     <section id="about">
       <div className="profile-picture">
-        <img src={FotoPerfil} alt="Foto de Perfil" />
+        <img src={FotoPerfil} style={{borderRadius:'200px'}} alt="Foto de Perfil" />
       </div>
       <div className="AboutMe">
-        <img src={ProjectBg} alt="Imagem de Fundo" className="background-img" />
         <div className="about-content">
           <h1>Sobre Mim</h1>
           <h2>"Você só melhora praticando"</h2>

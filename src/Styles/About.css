@@ -1,42 +1,85 @@
 #about {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 80px;
     display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: space-evenly;
-   flex-wrap: wrap;
-    gap: 200px;
-
+    align-items: center;
+    justify-content: space-between; 
+    gap: 125px; 
+    flex-wrap: wrap; 
 }
 
 #about img {
-    width: 450px;
-}
-
-.AboutMe p {
-    font-size: 1.2rem;
-
-}
-
-.AboutMe h1 {
-
-    font-size: 30px;
-    margin-bottom: 50px;
-}
-
-.AboutMe h2 {
- 
-    margin-bottom: 30px;
-}
-
-.AboutMe span {
-    color: #ffffff;
-}
-.AboutMe img{
+    width: 350px;
     border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+}
+
+.about-content {
+    width: 600px;
+    padding: 80px;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    background: rgba(0, 0, 0, 0.952); 
+    border-radius: 20px;
+    border: 1px solid rgb(83, 83, 83);
+}
+
+.AboutMe {
+    
+    text-align: left;
+    background-image: url('../Imgs/backgrounds/PersonaGirl2.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+}
+.about-content h1 {
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+
+.about-content h2 {
+    font-size: 26px;
+    margin-bottom: 60px;
+    font-style: italic;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.about-content span {
+    font-weight: bold;
+}
+/* Media Queries */
+@media screen and (max-width: 1270px) {
+    #about {
+        flex-direction: column;
+        padding: 0px;
+        gap: 0px;
+    }
+
+    #about img {
+       display: none;
+    }
+   
+    .about-content {
+        width: 700px;
+        padding: 60px;
+        
+        background: rgba(0, 0, 0, 0.952); 
+      
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .about-content {
+        width: auto;
+        padding: 0px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 40px;
+        background: rgba(0, 0, 0, 0.952); 
+      
+    }
 }

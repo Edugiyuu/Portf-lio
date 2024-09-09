@@ -13,7 +13,7 @@ const Skill = ({ skillName, numberSkill, skillColor }: Skill) => {
                 <h3 className='skillName'>{skillName}</h3>
                 <div className="BarOutJS">
                     <div style={{ width: `${numberSkill}px`, backgroundColor: `${skillColor}` }} className='BarInJS'>
-                        {`${(numberSkill / 500) * 100}%`} {/* Exibindo a porcentagem calculada */}
+                        {`${Math.round((numberSkill / 350) * 100)}%`}
                     </div>
                 </div>
             </div>
