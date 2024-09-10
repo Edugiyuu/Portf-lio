@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about">
       <div className="profile-picture">
-        <img src={FotoPerfil} style={{borderRadius:'200px'}} alt="Foto de Perfil" />
+        <img src={FotoPerfil}/>
       </div>
       <div className="AboutMe">
         <div className="about-content">

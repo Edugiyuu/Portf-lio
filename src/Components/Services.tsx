@@ -10,12 +10,12 @@ const Services = () => {
                 </div>
 
                 <div className='AllTheServices'>
-                    <a href="#home">
+                    <a href="#home" className='WebDev'>
                         Web Developer
                     </a>
 
-                    <a href="#home">
-                        Design Gráfico
+                    <a href="#home" className='WebDev'>
+                        Web Developer
                     </a>
 
 
